@@ -1,0 +1,226 @@
+:root {
+    --normal-text-color: #98989A;
+    --gray-text-color: #98989A;
+    --background-dark: #141414;
+    --background-semi-dark: #1A1A1A;
+    --yellow: #FFD11A;
+    --border-color: #262626;
+    --white-color: #fff;
+    --background-dark: #141414;
+    --background-semi-dark: #1A1A1A;
+    --yellow-color: #FFD11A;
+    --gray-text-color: #98989A;
+    --gray-nav-text-color: #7E7E81;
+    --white-color: #fff;
+    --border-color: #262626;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    color: var(--normal-text-color);
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-gray {
+    color: var(--gray-text-color);
+}
+
+.text-black {
+    color: var(--background-dark);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+
+.bg-my-black {
+    background-color: var(--background-dark);
+}
+
+.bg-my-semi-black {
+    background-color: var(--background-semi-dark);
+}
+
+header .banner {
+    background-color: var(--background-dark);
+}
+
+.custom-btn {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #00000024;
+}
+
+.header {
+    background-color: var(--background-semi-dark);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: var(--white-color);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: var(--yellow);
+}
+
+.first-row {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.first-row .right-container {
+    background-color: black;
+    background-image: url(../assets/imgs/Abstract\ Design.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+}
+
+.first-row .right-container .images {
+    height: 50px;
+    width: 200px;
+    background-color: var(--border-color);
+    border-radius: 1000px;
+}
+
+.first-row .left-container {
+    background-color: black;
+}
+
+.custom-btn {
+    background-color: var(--yellow);
+    color: var(--background-dark);
+    border: 1px solid #333;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    color: #ffd700;
+    border-color: #ffd700;
+}
+
+.arrow-icon {
+    color: #ffd700;
+    font-size: 16px;
+}
+
+.welcome-container {
+    background-color: var(--background-semi-dark);
+}
+
+h2 {
+    color: white;
+}
+
+.feature-item {
+    width: 45%;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background-color: var(--background-semi-dark);
+}
+
+.feature-row {
+    justify-content: center;
+}
+
+.bor-back {
+    border: 1px solid var(--border-color);
+    background-color: var(--background-semi-dark);
+    border-radius: 12px;
+}
+
+.image {
+    border-radius: 12px;
+}
+
+.real-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.real-card>div {
+    width: 100%;
+}
+
+.patch {
+    display: inline-block;
+    background-color: rgba(152, 152, 152, 0.249);
+    color: white;
+}
+
+.download-btn {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(47, 47, 47, 0.574);
+    border-radius: 100px;
+}
+
+.part div.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-item {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+    border-color: var(--yellow);
+}
+
+/* Hover for list items */
+footer ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer ul li:hover {
+  color: var(--yellow-color);
+}
+
+/* Hover for footer buttons */
+footer .btn-outline-light {
+  transition: all 0.3s ease;
+  color: var(--gray-text-color);
+}
+
+footer .btn-outline-light:hover {
+  background-color: var(--background-dark);
+  color: var(--white-color);
+  border-color: var(--yellow-color);
+}
+
+/* Optional: icon hover effect */
+footer i:hover {
+  color: var(--bs-primary); /* or any hover color */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
